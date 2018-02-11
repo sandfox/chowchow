@@ -17,4 +17,4 @@ push-to-checkout
 pre-auto-gc
 post-rewrite
 sendemail-validate
-fsmonitor-watchman.sample
+fsmonitor-watchman
