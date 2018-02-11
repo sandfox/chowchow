@@ -1,0 +1,13 @@
+#! /usr/bin/env node
+
+const install = require('../install')
+const uninstall = require('../uninstall')
+
+const [, , action] = process.argv
+
+switch(action) {
+	case 'install' : install(); break;
+	case 'uninstall': uninstall(); break;
+	default: console.log('use chowhow install or chowhow uninstall'); process.exit(1)
+}
+

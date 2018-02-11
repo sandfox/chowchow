@@ -1,0 +1,8 @@
+{
+  "name": "@sandfox/chowchow",
+  "version": "0.0.1",
+  "description": "like husky but not",
+  "bin": "./bin/cli",
+  "author": "sandfox",
+  "license": "GPL-3.0"
+}
