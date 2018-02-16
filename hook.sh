@@ -13,6 +13,7 @@ export GIT_PARAMS="$*"
 if [ -f "$CHOWCHOWFILE" ]; then
   scripts=$(ruby --disable-gems -r yaml -e "puts YAML.load_file('${CHOWCHOWFILE}')['${HOOKNAME}']")
   while read -r line; do
+    set -e
     eval "${line}"
   done <<< "$scripts"
 fi
