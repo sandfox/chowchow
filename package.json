@@ -4,5 +4,8 @@
   "description": "like husky but not",
   "bin": "./bin/cli",
   "author": "sandfox",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "scripts": {
+      "test": "find test -name \"index.js\" -type f | xargs node"
+  }
 }
