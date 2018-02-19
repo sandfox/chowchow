@@ -1,0 +1,5 @@
+pre-commit:
+    - echo 'success'
+    - echo 'success'
+    - sh failing-hook.sh
+    - echo 'Never reach this'
